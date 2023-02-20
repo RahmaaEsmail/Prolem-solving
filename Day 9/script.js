@@ -88,3 +88,23 @@
 // };
 // console.log(zeroFuel(50,25,2));
 // console.log(zeroFuel(100, 50, 1));
+
+
+
+///////////////////////////////// leetcode///////////////////////////////
+// maximum - number - of - words - found -in -sentences
+//  let sentences = ["w jrpihe zsyqn l dxchifbxlasaehj", "nmmfrwyl jscqyxk a xfibiooix xolyqfdspkliyejsnksfewbjom", "xnleojowaxwpyogyrayfgyuzhgtdzrsyococuqexggigtberizdzlyrdsfvryiynhg", "krpwiazoulcixkkeyogizvicdkbrsiiuhizhkxdpssynfzuigvcbovm", "rgmz rgztiup wqnvbucfqcyjivvoeedyxvjsmtqwpqpxmzdupfyfeewxegrlbjtsjkusyektigr", "o lgsbechr lqcgfiat pkqdutzrq iveyv iqzgvyddyoqqmqerbmkxlbtmdtkinlk", "hrvh efqvjilibdqxjlpmanmogiossjyxepotezo", "qstd zui nbbohtuk", "qsdrerdzjvhxjqchvuewevyzlkyydpeeblpc"];
+// var mostWordsFound = function (sentences) {
+    ////////////first solution/////////////
+    // let word , arr =[];
+    // for (const i of sentences) {
+    //     word = i.split(" ").length;
+    //     arr.push(word)
+    // }
+    // return Math.max(...arr)
+
+    ////////////second solution  **best solution**////////////
+    // return Math.max(...sentences.map((sentence) => sentence.split(" ").length));
+// };
+// console.log(mostWordsFound(sentences));
+
