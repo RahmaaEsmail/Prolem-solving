@@ -40,3 +40,7 @@
 //     return  regex.test(pin) && (pin.length == 4 || pin.length == 6) ? true : false; 
 // }
 // console.log(validatePIN("66y3"));
+
+
+let x ="rahma";
+console.log(x.length);
